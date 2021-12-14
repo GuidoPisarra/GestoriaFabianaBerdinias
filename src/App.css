@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10%;
+  width: 10%;
+  border-radius: 50%;
+  pointer-events: none;
+  
+}
+.title{
+  padding-left: 3%;
+  color: #fd6f8e;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+.App-header {
+  background-color: #fce7f6;
+  font-family: 'Special Elite', cursive;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(50px + 2vmin);
+  color: #fd6f8e;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container{
+  font-family: 'Special Elite', cursive;
+  font-size: 30px;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 25px;
+  
+}
+.imgFrente{
+  height: 25rem;
+  align-self: flex-start;
+  border-radius:3px;
+}
+.listTramite{
+  align-content:center;
+  padding-left: 3%;
+}
+ul{
+  align-self: flex-start;
+  list-style: none;
+ 
+}
+li{
+  padding-bottom: 15px;
+
+}
+.line {
+  position: relative;
+  top: 50%;
+  width: 16em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;transform: translateY(-50%);
+}
+.anim-typewriter {
+  animation: typewriter 4s steps(36) 1s 1 normal both,
+  blinkTextCursor 500ms steps(36) infinite normal;
+}
+@keyframes typewriter {
+      from {
+            width: 0;
+      }
+      to {
+            width: 16em;
+      }
+}
+
+@keyframes blinkTextCursor {
+      from {
+            border-right-color: rgba(255, 255, 255, 0.75);
+      }
+      to {
+            border-right-color: transparent;
+      }
+}
