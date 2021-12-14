@@ -7,7 +7,7 @@
   width: 10%;
   border-radius: 50%;
   pointer-events: none;
-  
+  position: absolute;
 }
 .title{
   padding-left: 3%;
@@ -58,13 +58,16 @@ li{
   padding-bottom: 15px;
 
 }
+.box{
+  width: 100%;
+  
+  
+}
 .line {
-  position: relative;
-  top: 50%;
-  width: 16em;
-  margin: 0 auto;
-  border-right: 2px solid rgba(255, 255, 255, 0.75);
-  font-size: 180%;
+  padding-top: 1%;
+  color: #fd6f8e; 
+  width: 100%;
+  font-size: 100%;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;transform: translateY(-50%);
@@ -78,7 +81,7 @@ li{
             width: 0;
       }
       to {
-            width: 16em;
+            width: 100%em;
       }
 }
 

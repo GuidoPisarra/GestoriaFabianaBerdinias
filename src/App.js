@@ -18,19 +18,17 @@ function App() {
         <title>Fabiana Berdiñas</title>   
 
       <header className="App-header">     
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="title">
+        <p className="line anim-typewriter">
           Gestoria Fabiana Berdiñas
         </p>
         
       </header>
       <div className="container">
         <img src={frente} className="imgFrente" alt="frente"/>
-        <div className="">
-          <p className='title line anim-typewriter'>Automotores, Motovehiculos, Maquinarias Agricolas,</p>
-          <p className='title line anim-typewriter'>Viales, Industriales y Viales, Créditos Prendarios</p>
-        </div>
-        <div>
+        <div className="box">
+          <p className='title'>Automotores, Motovehiculos, Maquinarias Agricolas,</p>
+          <p className='title'>Viales, Industriales y Viales, Créditos Prendarios</p>
+        
           <ul>
             <li className="">Alta y baja de dominios</li>
             <li>Informes de deuda</li>
