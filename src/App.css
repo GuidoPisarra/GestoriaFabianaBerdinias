@@ -37,23 +37,15 @@
   padding-top: 25px;
   display: flex;
   flex-direction: row;
-  padding-left: 25px;
-  
+  padding-left: 15px;
 }
 .imgFrente{
   height: 25rem;
   align-self: flex-start;
   border-radius:3px;
 }
-.listTramite{
-  align-content:center;
-  padding-left: 3%;
-}
-ul{
-  align-self: flex-start;
-  list-style: none;
- 
-}
+
+
 li{
   padding-bottom: 15px;
 
@@ -62,6 +54,9 @@ li{
   width: 100%;
   
   
+}
+.list{
+  visibility:hidden;
 }
 .line {
   padding-top: 1%;
@@ -73,8 +68,9 @@ li{
   overflow: hidden;transform: translateY(-50%);
 }
 .anim-typewriter {
-  animation: typewriter 4s steps(36) 1s 1 normal both,
-  blinkTextCursor 500ms steps(36) infinite normal;
+  animation: typewriter 4s steps(30) 1s 1 normal both,
+  blinkTextCursor 500ms steps(30) infinite normal;
+ 
 }
 @keyframes typewriter {
       from {
@@ -92,4 +88,34 @@ li{
       to {
             border-right-color: transparent;
       }
+}
+
+
+
+
+ul {  
+  animation-name: example;
+  animation-duration: 6s;
+  list-style: none;
+}
+
+@keyframes example {
+  from {color: white;}
+  to {color: black;}
+}
+
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
 }

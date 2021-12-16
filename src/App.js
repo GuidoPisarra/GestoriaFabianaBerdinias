@@ -3,7 +3,6 @@ import frente from './assets/frente.jpg'
 import './App.css';
 import { useEffect } from 'react';
 
-
 function App() {
   useEffect(() => {
     document.title = "Fabiana Berdiñas"
@@ -24,13 +23,14 @@ function App() {
         
       </header>
       <div className="container">
-        <img src={frente} className="imgFrente" alt="frente"/>
+        <img src={frente} className="imgFrente" alt="frente"/> 
+        
         <div className="box">
           <p className='title'>Automotores, Motovehiculos, Maquinarias Agricolas,</p>
           <p className='title'>Viales, Industriales y Viales, Créditos Prendarios</p>
         
           <ul>
-            <li className="">Alta y baja de dominios</li>
+            <li >Alta y baja de dominios</li>
             <li>Informes de deuda</li>
             <li>Tramites de moratoria</li>
             <li>Transferencias de Automotor</li>
